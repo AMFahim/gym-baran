@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Advantage from '../components/common/Advantage'
+import HealthyQuote from '../components/common/HealthyQuote'
 import Hero from '../components/common/Hero'
 import Navbar from '../components/shared/Navbar'
 
@@ -15,6 +17,8 @@ export default function Home() {
       <div>
         <Navbar />
         <Hero />
+        <HealthyQuote />
+        <Advantage />
       </div>
     </>
   )
