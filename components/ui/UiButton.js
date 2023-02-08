@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image'
-import arrow from './../../assets/icon/vector.svg'
 
 
 const UiButton = (props) => {
