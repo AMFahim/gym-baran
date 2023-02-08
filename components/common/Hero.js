@@ -23,7 +23,7 @@ const Hero = () => {
                         {
                             BrandIcons.map(icons => 
                                 <div key={icons.id} className="h-[20px]">
-                                    <Image src={icons.image} height={30}/>
+                                    <Image src={icons.image} height={30} alt="images"/>
                                 </div>
                                 )
                         }
@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             <div>
                 <div className='mt-16'>
-                    <Image src={heroImg} height={508} width={580}></Image>
+                    <Image src={heroImg} height={508} width={580} alt="image"></Image>
                 </div>
                 
             </div>
