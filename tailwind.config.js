@@ -11,12 +11,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        poppins: ["Poppins, sans-serif"]
+        poppins: ["Poppins, sans-serif"],
+        grotesque: ['Darker-Grotesque', "sans-serif" ]
       }
     },
     colors: ({colors}) => ({
       ...colors,
-      "btn-bg": "#264373"
+      "btn-bg": "#264373",
+      "primary-btn": "#264373",
+      "default-color": "#262524"
     })
   },
   plugins: [],

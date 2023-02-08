@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
+import Hero from '../components/common/Hero'
+import Navbar from '../components/shared/Navbar'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     </Head>
       <div>
         <Navbar />
+        <Hero />
       </div>
     </>
   )
